@@ -6,7 +6,7 @@
 }
 
 /* remove default margin */
-body, h1, h2, p {
+body, h1, h2, p, ul {
   margin: 0;
 }
 
@@ -19,7 +19,7 @@ ul {
 /* set core body defaults */
 body {
   min-height: 100vh;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 /* set line-heigths on heading & interactive element */
@@ -41,5 +41,99 @@ a {
   text-decoration: none;
 }
 
+/* ---------- CSS VARIABLE ---------- */
+:root {
+  
+  /* Color Sistem */
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-darkCyan: hsl(179, 62%, 40%);
+  --clr-brightYellow: hsl(71, 73%, 54%);
+  --clr-lightGray: hsl(204, 43%, 93%);
+  --clr-grayishBlue: hsl(218, 22%, 67%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --ff-karla: 'Karla', sans-serif;
+  --fs-400: 1rem;
+  --fs-500: 1.3rem;
+  --fs-700: 2rem;
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
 /* ---------- CHALLENGE STYLING ---------- */
-/* font-family: 'Karla', sans-serif; */
+
+body {
+  font-family: var(--ff-karla);
+  font-size: var(--fs-400);
+  background: var(--clr-lightGray);
+  /* color: var(--clr-lightGray); */
+}
+
+.sign-up-btn {
+  background: var(--clr-brightYellow);
+  color: var(--clr-white);
+  border: none;
+  width: 100%;
+  padding-block: .6em;
+  border-radius: 4px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.card {
+  padding: 1.5em;
+}
+
+.card__title {
+  font-size: var(--fs-500);
+  color: var(--clr-white);
+  margin-bottom: 1rem;
+}
+
+.card__subtitle {
+  font-size: var(--fs-400);
+  margin-bottom: 1.2em;
+}
+
+.card--community {
+  background: var(--clr-white);
+  color: var(--clr-grayishBlue);
+  border-radius: 8px 8px 0 0;
+}
+
+.card--subscription {
+  background: var(--clr-darkCyan);
+  color: var(--clr-lightGray);
+}
+
+.price {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-700);
+  color: var(--clr-white);
+  display: flex;
+  align-items: center;
+  gap: .75rem
+}
+
+.monthly {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+}
+
+.card--why-us{
+  background: var(--clr-cyan);
+  border-radius: 0 0 8px 8px;
+}
+
+
+.accent-cyan {
+  color: var(--clr-cyan);
+}
+
+.accent-yellow {
+  color: var(--clr-brightYellow)
+}
