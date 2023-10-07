@@ -12,7 +12,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,8 +25,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Live Site URL: https://dedo-dev.github.io/single-price-grid-component/
+   
 ## My process
 
 ### Built with
