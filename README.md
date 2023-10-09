@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Continued development
 
-I would like improve my knowledge with CSS Grid because I use it just a little bit
+I would like to improve my knowledge with CSS Grid because I use it just a little bit
 
 ### Useful resources
 
