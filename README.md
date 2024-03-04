@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/single-price-grid-component-css-grid-mobile-first-bem-s5ZWF4U2Xa
 - Live Site URL: https://dedo-dev.github.io/single-price-grid-component/
    
 ## My process
